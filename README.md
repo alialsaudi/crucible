@@ -102,8 +102,6 @@ crucible/
     iteration.md         ← Output format for each debate round
     questions.md         ← Output format for founder decision questions
     final_output.md      ← Output format for the final blueprint
-  examples/
-    config_example.md    ← Worked example (3D shopping app in Qatar)
 ```
 
 ## Design Principles
@@ -119,17 +117,6 @@ Crucible is built on multi-agent debate research (ICLR 2025, EMNLP 2024, NAACL 2
 7. **Final validation pass** — catches errors introduced during synthesis
 
 For the full research basis and audit of the design, see [DESIGN.md](DESIGN.md).
-
-## Example Output
-
-The pipeline was originally developed and tested with a complex business idea (a 3D shopping app for Qatar). That session produced:
-
-- 10 debate iterations covering: 3D visualization, AI indexing, UX design, delivery logistics, revenue model, competition analysis, scalability, go-to-market, and more
-- 15 decision questions for the founder
-- A 13-section final blueprint with ordered action plan
-- Key pivots discovered through debate: "boredom shopper" → "local explorer", shop subscriptions → B2B licensing, building delivery → partnering
-
-See `examples/config_example.md` for the configuration used.
 
 ## Tips
 
